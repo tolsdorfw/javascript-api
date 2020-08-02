@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Slayer</title>
+</head>
+<body>
+    <script>
+        var name = prompt('What is your name?');
+        var play = confirm('Hello ' + name + '! Would you like to play?');
+        var battle;
+        var outcome = Math.floor((Math.random() * 2) + 1);
+
+        play ? battle = confirm('Would you like to battle the dragon?') : alert('Maybe next time...');
+
+        if (battle) {
+            if (outcome == 1) {
+                alert('You win!');
+            } else {
+                alert('You lose!');
+            }
+        } else {
+            alert("Come back when you're brave enough");
+        }
+
+    </script>
+</body>
+</html>

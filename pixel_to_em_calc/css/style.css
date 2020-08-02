@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d3f5dc;
+}
+
+.container {
+    background-color: #0e8a2f;
+    border-radius: 10px;
+    text-align: center;
+    width: 50vw;
+    margin: 20px auto;
+    padding: 50px 100px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 40px;
+    background-color: #0e8a2f;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    outline: none;
+}
+
+input[type="number"] {
+    height: 40px;
+    width: 300px;
+    font-size: large;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p, #result {
+    color: white;
+    font-size: large;
+}

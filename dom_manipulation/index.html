@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id='hello' style="display: inline-block;"></p><span id="name"></span>
+    <img>
+    <script>
+        var name = prompt("Name");
+        document.getElementsByTagName('p')[0].innerHTML = 'Hello';
+        document.getElementById("name").innerHTML = " " + name + "!";
+        document.getElementById("name").style.fontSize = '60px';
+        document.getElementById("name").style.fontWeight = 'bold';
+        document.getElementById("name").style.color = 'red';
+
+        document.querySelector('img').setAttribute('src','images/download.png');
+        document.getElementsByTagName('img')[0].style.display = "block";
+        document.getElementsByTagName('img')[0].style.width = "800px"
+    </script>
+</body>
+</html>

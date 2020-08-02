@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+
+    <div id='character'></div>
+    
+    <script>
+
+        function Character(first, last, color, image) {
+            this.firstName = first;
+            this.lastName = last;
+            this.color = color;
+            this.image = image;
+        };
+
+        var goku = new Character('Son', 'Goku', ['black', 'white', 'orange'],'goku.png');
+        var vegita = new Character('Vegita', 'Vegita', ['blue', 'white'], 'vegita.png');
+        console.log(goku, vegita);
+    </script>
+</body>
+</html>
